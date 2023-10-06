@@ -1,17 +1,22 @@
-var number1=23;
-var number2=78;
-var number3=67;
+var no1 = 23;
+var no2 = 78;
+var no3 = 67;
 
-if (number1%2==0){
-if (number2%2==0){
-    console.log(`The ${number2} is even`)
-}else {
-    console.log (`The ${number2} is odd`)
-}if (number3%2==0){
-
-    console.log (`The ${number3} is even`)
-}else {
-
-    console.log(`The ${number3} is odd`)
+if (no1 % 2 == 0) {
+    console.log(`The ${no1} is even`)
+    if (no1 % 2 == 0 && no2 % 2 == 0) {
+        console.log(`The ${no2} is even`)
+    } else {
+        console.log(`The ${no2} is odd`)
+    }
 }
+else {
+    console.log(`The ${no1} is odd`)
+    if (no2 % 2 == 0 && no3 % 2 == 0) {
+        console.log(`The ${no3} is even`)
+    } else {
+        console.log(`The ${no3} is odd`)
+
+    }
+
 }
